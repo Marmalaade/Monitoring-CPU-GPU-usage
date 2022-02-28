@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CPUusage</class>
+ <widget class="QDialog" name="CPUusage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:15px;
+font-family:century gothic,sans-serif;
+}
+
+QFrame{
+border:solid 10px rgba(0,0,0);
+backgrond-image: url(:/imgs/imgs/background.jpg);
+
+}
+#CPUusage{
+border-image: url(:/imgs/imgs/background.jpg);
+}
+QPushButton{
+background:#ced1d8;
+border-style:outset;
+border-radius:11px;
+}
+
+QPushButton:hover
+{
+   background-color:#DCDCDC;
+}
+QPushButton:pressed{
+	background-color:#696969;
+ 
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
